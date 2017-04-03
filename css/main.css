@@ -1,0 +1,454 @@
+body {
+	margin: 0 auto;
+	font-family: 'Bree Serif', serif;
+}
+
+nav {
+	background-color: #A3D2DA;
+	height: 460px;
+}
+nav .navbar {
+	padding: 25px 250px;
+
+}
+
+.navbar > a {
+	font-family: 'Bree Serif', serif;
+	color: #3A494C;
+	text-decoration: none;
+	font-size: 25px;
+	text-align: left;
+	
+}
+
+nav ul {
+	float: right;
+	margin: 0 auto;	
+}
+
+nav li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px 15px;
+}
+
+nav li a {
+	font-family: 'Bree Serif', serif;
+	color: #3A494C;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+nav li a:hover {
+	background-color: #3A494C;
+	color: #A3D2DA;
+	border-radius: 10px;
+	transition: 0.3s;
+	cursor: pointer;
+	
+}
+
+.awesome {
+	height: 361px;
+	padding-top: 30px;
+	padding: 15px 320px 0 320px;
+}
+
+.awesome h1 {
+	color: white;
+	font-size: 50px;
+	float: left;
+	margin-bottom: 0;
+	margin-top: 100px;
+}
+
+
+.awesome img {
+	zoom: 65%;
+	float: right;
+	margin-top: -50px;
+}
+
+.description {
+	position: relative;
+	height: 450px;
+	margin-right: 250px;
+	margin-left: 250px;
+}
+
+.description-box {
+	position: relative;
+	display: table-cell;
+	margin: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.description-box img {
+	display: block;
+	margin: auto;
+}
+
+.description-box h2,
+.description-box p {
+	text-align: center;
+}
+
+.description-box h2 {
+	font-size: 19px;
+}
+
+.description-box p {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.portfolio {
+	position: relative;
+	height: 1000px;
+	background-color: #99D2A5;
+}
+
+.recent-works {
+	margin-right: 150px;
+	margin-left: 150px;
+	height: 1000px;
+}
+
+.recent-works h3 {
+	margin: auto;
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.recent-works p {
+	margin: auto;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	padding: 15px 150px;
+}
+
+.buttons {
+	text-align: center;
+	padding: 40px;
+}
+
+.buttons li {
+	display: inline-block;
+	
+	padding: 0 15px;
+	margin: auto;
+	text-align: center;
+}
+
+.buttons li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+}
+
+.buttons li a:active {
+	border: 1px solid white;
+	background-color: white;
+	color: #99D2A5;
+	border-radius: 5px;
+}
+
+.buttons li a:hover {
+	border: 1px solid white;
+	color: white;
+	border-radius: 5px;
+}
+
+
+.portfolio-images img {
+	padding: 13px;
+
+}
+
+.showmore {
+	text-align: center;
+	padding: 20px;
+}
+
+.showmore > a {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: white;
+	color: #99D2A5;
+	border-radius: 5px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.photoshop-template {
+	padding-top: 50px;
+	margin-right: 150px;
+	margin-left: 150px;
+	padding-bottom: 50px;
+	height: 650px;
+}
+
+.photoshop-img {
+	zoom: 55%;
+	display: inline-block;
+}
+
+.photoshop-left {
+	float: right;
+	display: inline-block;
+	width: 77%;
+}
+
+ .photoshop-template hr {
+	margin: 100px auto;
+	width: 1133px;
+	padding: 0;
+	color: grey;
+}
+
+.photoshop-template h4 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.photoshop-left p {
+	margin-right: 280px;	
+}
+
+.photoshop-right {
+	float: left;
+	display: inline-block;
+	width: 77%;
+}
+
+.photoshop-right p {
+	margin-right: 280px;
+}
+
+.photoshop-img-right {
+	zoom: 55%;
+	display: inline-block;
+
+}
+
+.photoshop-showmore {
+	text-align: center;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+.photoshop-showmore a {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: #99D2A5;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.photoshop-showmore-right {
+	text-align: center;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+
+.photoshop-showmore-right a {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: #A3D2DA;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+
+.container-team {
+	background-color: #E0B5C6;
+}
+
+.team,
+.recent-post,
+.contact-us-text {
+	padding-top: 50px;
+	margin-right: 150px;
+	margin-left: 150px;
+	padding-bottom: 50px;
+	height: 650px;
+}
+
+.team h5,
+.recent-post h5,
+.contact-us-text h5 {
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 55px;
+}
+
+.team > p,
+.recent-post > p,
+.contact-us-text > p {
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.profiles,
+.really-interesting-posts {
+	display: inline-block;
+	height: 540px;
+}
+
+.profile,
+.really-interesting-post {
+	display: inline-block;
+	border: 1px solid white;
+	text-align: center;
+	background-color: white;
+	width: 260px;
+	height: 400px;
+	margin-top: 35px;
+	margin: 100px 55px;
+
+}
+
+.profile-img
+.really-interesting-post-img {
+	display: block;
+	margin: auto;
+}
+
+.profile img,
+.really-interesting-post img {
+	display: block;
+	margin: auto;
+	width: 260px;
+}
+
+.profile-text h6,
+.really-interesting-post-text h6 {
+	font-size: 30px;
+	margin: 10px;
+}
+
+.fa-facebook {
+	border-radius: 50px;
+	background-color: #2940A4;
+	color: white;
+	width: 15px;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.fa-twitter {
+	border-radius: 50px;
+	background-color: #24A8FC;
+	color: white;
+	width: 15px;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.fa-pinterest {
+	border-radius: 50px;
+	background-color: #D31131;
+	color: white;
+	width: 15px;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.container-recent-post {
+	background-color: #B5D5E1;
+}
+
+.recent-post {
+	height: 750px;
+}
+
+.recent-post-showmore {
+	text-align: center;
+	padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+.recent-post-showmore a {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: #FFF;
+	color: #B5D5E1;
+	border-radius: 5px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.container-contact-us {
+	background-color: #3B3B3B;
+}
+
+
+.contact-us-input {
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-us-text p {
+	margin-bottom: 50px;
+}
+
+.contact-us-input input,
+.contact-us-input textarea {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 300px;
+	padding: 15px;
+
+}
+
+.contact-us-input textarea {
+	height: 80px;
+}
+
+.contact-us-showmore {
+	text-align: center;
+	padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+.contact-us-showmore a {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: #FFF;
+	color: #3B3B3B;
+	border-radius: 5px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.contact-us-text hr {
+	border-color: #3B3B3B;
+	margin: 40px auto;
+}
